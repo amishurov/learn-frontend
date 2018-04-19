@@ -8,6 +8,14 @@
 	src: url('ProximaNovaCond-Bold.woff') format('woff');
 }
 
+.header {
+	font-size: 14px;
+}
+
+.menu {
+	font-size: 14px;
+}
+
 .wrapper {
 	width: 1280px;
 	margin-top: 0;
@@ -39,6 +47,12 @@
 }
 
 .title-link {
+	font-size: 14px;
 	color: #fff;
 	text-align: center;
+}
+
+.title-stats {
+	font-size: 12px;
+	color: #fff;
 }
