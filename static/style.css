@@ -25,21 +25,21 @@
 }
 .title-header {
 	font-family: ProximaNovaCondensedBold, Arial, sans-serif;
-	font-size: 36px;
+	font-size: 72px;
 	color: #fff;
 	text-align: center;
 	line-height: 1.20;
 }
 
 .title-subtext {
-	font-size: 9px;
+	font-size: 18px;
 	color: #fff;
 	text-align: center;
 	line-height: 1.44;
 }
 
 .title-link {
-	font-size: 7px;
+	font-size: 14px;
 	color: #fff;
 	text-align: center;
 	line-height: 1.21;
