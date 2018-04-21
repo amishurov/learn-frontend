@@ -29,7 +29,7 @@
 }
 
 .title {
-    background: #000;
+    background: url('faces.jpg') no-repeat;
 }
 
 .title-header {
