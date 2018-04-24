@@ -8,6 +8,10 @@
     src: url('ProximaNovaCond-Bold.woff') format('woff');
 }
 
+a {
+    text-decoration: none;
+}
+
 .header {
     font-size: 14px;
 }
@@ -30,6 +34,8 @@
 
 .title {
     background: url('faces.jpg') no-repeat;
+    height: 665px;
+    margin-bottom: 60px;
 }
 
 .title-header {
@@ -46,13 +52,87 @@
     line-height: 1.44;
 }
 
-.title-link {
+.title-top {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.title-top-link {
+    text-decoration: none;
     font-size: 14px;
     color: #fff;
-    text-align: center;
+}
+
+.title-top-delimiter {
+    color: #fff;
 }
 
 .title-stats {
     font-size: 12px;
     color: #fff;
+}
+
+.company {
+    margin: 0 175px 0 175px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 60px;
+    border: solid 1px #e1e1e1;
+}
+
+.company-name {
+    padding-top: 20px;
+}
+
+.company-header {
+    font-family: ProximaNovaCondensedBold, Arial, sans-serif;
+    font-size: 48px;
+    display: inline-block;
+}
+
+.company-logo {
+    background: url('hh-logo.svg') no-repeat;
+    height: 48px;
+    width:  48px;
+    float: right;
+}
+
+.company-url {
+    clear: both;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.company-area {
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.company-vacancies {
+    font-family: Arial;
+    font-size: 14px;
+    padding-bottom: 23px;
+}
+
+.people {
+    padding: 0 175px 0 175px;
+}
+
+.people-item-name {
+    font-family: ProximaNovaCondensed;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.people-item-description {
+    margin-bottom: 20px;
+}
+
+.people-item-photo {
+    margin-bottom: 20px;
+}
+
+.people-item-about {
+    margin-bottom: 40px;
 }
